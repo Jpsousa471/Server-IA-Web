@@ -1,6 +1,7 @@
 export type GetRoomQuestionsResponse = Array<{
   id: string;
-  name: string;
-  anwser: string | null;
+  question: string;
+  answer: string | null;
   createdAt: string;
+  isGeneratingAnswer?: boolean;
 }>;
